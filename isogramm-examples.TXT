@@ -1,0 +1,72 @@
+/*
+c -   orgasmic
+
+f -   gasiform
+
+i -   origamis
+
+l -   algorism
+
+n -   organism
+
+s -   isograms
+
+u -   gouramis
+
+armings   margins   roaming   signora   soaring isogram
+
+agoras   agrias   amigas   amigos   aromas   gramas   imagos   orgasm
+
+b -   biogas   gambir   isobar   mbiras
+
+c -   cargos   caroms   cigars   corgis   macros   magics   micros   mosaic   orgiac   racism   scoria
+
+d -   aroids   disarm   dogmas   radios
+
+e -   ageism   aimers   ariose   armies   egoism   gamers   gamier   grimes   imager   images   isomer   maigre   marges   mirage   moires   omegas   orgies   ramies   ramose   rimose   sagier
+
+f -   forams
+
+g -   aggros   amigos   imagos   ogrism   orgasm
+
+h -   garish   ihrams   marish   mohair   oghams   ogrish
+
+i -   amigos   ariosi   imagos   moirai   ogrism
+
+j -   jorams   majors   riojas
+
+l -   algors   argils   argols   glairs   glamor   glioma   gloams   gloria   gorals   grails   largos   molars   morals   sailor
+
+m -   amigos   imagos   mimosa   ogrism   orgasm
+
+n -   amnios   argons   arming   arsino   gamins   girons   grains   grison   groans   groins   inarms   mangos   manors   margin   minors   morgan   norias   oaring   onagri   orangs   organs   origan   ramson   ransom   rasing   romans   rosing   sarong   signor   soring
+
+o -   amigos   arioso   grooms   imagos   ogrism   orgasm
+
+p -   gramps   pargos   porism   primas   primos
+
+r -   armors   morris   ogrism   orgasm   rigors
+
+s -   agisms   amigos   gismos   imagos   morass   ogrism   orgasm   sigmas   simars
+
+t -   aorist   argots   aristo   gators   gratis   griots   groats   magots   ratios   satori   stigma   stroma   trigos
+
+u -   amours   giaour   guiros   miaous   ramous   rimous   rugosa   souari
+
+v -   savior   vagrom   vigors   virago   virgas
+
+w -   miaows
+
+x -   axioms   ixoras
+
+y -   argosy   mayors   morays
+
+z -   gizmos   mirzas   zirams
+
+
+grows   miaow   sowar   swami   swarm   wairs   warms   worms
+gizmo   grosz   izars   mirza   sizar   ziram   zoris
+agar   agas   agio   agma   aims   airs   amas   amia   amir   amis   aria   arms   gama   gams   gars   goas   gram   maar   magi   mags   mair   mars   moas   mora   oars   ogam   osar   raga   ragi   rags   raia   rami   rams   rias   roam   saga   sago   sari   sima   soar   soma   sora
+girsh   hairs   harms   hoars   horas   ihram   marsh   ogham   ohias
+agons   airns   amino   amins   amnio   among   argon   arson   gains   gamin   garni   girns   giron   gnars   gonia   grain   grans   grins   groan   groin   inarm   irons   mains   mango   manor   manos   mason   minas   minor   moans   monas   morns   naris   noirs   nomas   noria   noris   norms   orang   organ   ornis   rains   ranis   rings   roans   roman   rosin   sarin   sonar
+*/

@@ -1,0 +1,34 @@
+### Game Design Document
+
+## Requirements
+
+# What will the Inputs be?
+Text from the console typed by the user
+
+# What will the Outputs be?
+Text on the console.
+
+Feedback on the state of the game during gameplay.
+- How many tries are left?
+- How many letters are in the right place?
+- How many letters are in the wrong place?
+
+After the main game has finished:
+- Prompt to play again
+  - If game was lost, ask whether to try the same word again
+
+# What tasks will the user be asked to do?
+- Guess a isogram word
+- adapt guesses based on feedback
+- guess within a a certain number of tries to win, otherwise lose the game
+
+# Any performance limits worth mentioning?
+No
+
+# What assets do we need?
+- ASCII art for bull and cow
+- Various text messages
+
+# Possible future ideas
+- Give feedback on every key press
+- use a dictionary or a large number of words
