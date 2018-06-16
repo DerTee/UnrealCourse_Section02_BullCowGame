@@ -1,15 +1,5 @@
-/*
- * This class is responsible for the game logic,
- * so it's responsibility is to provide words to guess,
- * enforce the rules for guessing, check win / lose condition etc.
- *
- * It is the controller in the MVC pattern.
- * For the view layer see main.cpp
- */
-
 #pragma once
 #include "FBullCowGame.h"
-
 
 FBullCowGame::FBullCowGame() { Reset(); } // default constructur
 
@@ -25,21 +15,29 @@ int32 FBullCowGame::GetMaxTries() const {
 // Uses given wordlength to generate a hidden word. Has to be called before any guessing.
 void FBullCowGame::GenerateHiddenWord(int32 PlayerWordLength)
 {
-	FString HiddenWord = GetIsogramOfLength(PlayerWordLength);
+	FString HiddenWord = WordLengthToIsogram[PlayerWordLength];
 	MyHiddenWord = HiddenWord;
 	return;
 }
 
+// initalises to an incomplete state because the word length is unknown at this point
+// GenerateHiddenWord() MUST be called before any guessing!
 void FBullCowGame::Reset()
 {
-	const FString HIDDEN_WORD = "parent";
+	const FString HIDDEN_WORD = ""; // broken state, that is set because hidden word length is still unknown
 	MyHiddenWord = HIDDEN_WORD;
 
 	MyCurrentTry = 1;
 
 	bIsGameWon = false;
 
-	// WordLengthToIsogram
+	WordLengthToIsogram = {
+		{ 3, "sun" },
+		{ 4, "glue" },
+		{ 5, "plane" },
+		{ 6, "beauty" },
+		{ 7, "hexagon" }
+	};
 
 	return;
 }
@@ -88,7 +86,6 @@ EWordLengthStatus FBullCowGame::CheckWordLengthValidity(FString PlayerWordLength
 FWordLengthRange FBullCowGame::GetWordLengthRange() const
 {
 	FWordLengthRange Range;
-	// TODO get bounds by checking the internal isogram "library"
 	Range.Lower = 3;
 	Range.Upper = 7;
 	return Range;
@@ -158,10 +155,4 @@ bool FBullCowGame::IsLowercase(FString Word) const
 		if (!islower(Letter)) { return false; }
 	}
 	return true;
-}
-
-FString FBullCowGame::GetIsogramOfLength(int32 Length)
-{
-	FString Isogram = WordLengthToIsogram[Length];
-	return Isogram;
 }
